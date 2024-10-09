@@ -1,5 +1,3 @@
-// Task 4 - Print String
-
 void main() {
   String str = "Holberton School";
   String word = str.substring(0, 9);
