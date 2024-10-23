@@ -9,6 +9,6 @@ class User {
 
   // Methods
   String showName() {
-    return name;
+    return "Hello $name";
   }
 }
