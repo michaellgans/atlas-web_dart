@@ -5,7 +5,7 @@ class Password {
   String _password;
 
   // Constructor
-  Password(this._password);
+  Password({required String password}) : _password = password;
 
   // Methods
   bool isValid() {
