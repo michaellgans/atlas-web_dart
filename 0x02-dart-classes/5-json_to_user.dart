@@ -38,8 +38,4 @@ class User {
   String toString() {
     return "User(id: $id, name: $name, age: $age, height: $height)";
   }
-
-  String showName() {
-    return "Hello $name";
-  }
 }
