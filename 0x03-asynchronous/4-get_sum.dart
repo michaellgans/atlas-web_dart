@@ -5,7 +5,7 @@
 import 'dart:convert';
 import '4-util.dart';
 
-Future<double> calculateTotal() async {
+Future<num> calculateTotal() async {
   try {
     // Pull User Data as a JSON string
     String userData = await fetchUserData();
@@ -28,6 +28,6 @@ Future<double> calculateTotal() async {
     // Return total of items
     return total;
   } catch (error) {
-    return -1.toDouble();
+    return -1;
   }
 }
