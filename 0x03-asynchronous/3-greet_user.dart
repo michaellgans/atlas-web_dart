@@ -23,7 +23,7 @@ Future<String> loginUser() async {
       // Turn JSON into a MAP
       Map<String, dynamic> userInfo = jsonDecode(greeting);
 
-      // Return just the ID
+      // Return just the username
       String username = userInfo['username'];
 
       return "There is a user: true" + "\n" + "Hello $username";
